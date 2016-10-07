@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+    <style>
+        canvas {
+            background: black;
+        }
+    </style>
+    <script src="http://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="bower_components/pixi.js/bin/pixi.js"></script>
+    <script src="cannondefense.js"></script>
+    <script src="entities.js"></script>
+    <script src="eventmanager.js"></script>
+    <script>
+        $(function(){
+            var settings = {};
+            var game = CannonDefense('js_cannon-defense', settings);
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "name": "Cannon Defense Game",
+  "main": "cannondefense.html",
+  "authors": [
+    "RonV <ron@definitedev.com>"
+  ],
+  "description": "",
+  "keywords": [
+    "javascript",
+    "game"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "pixi.js": "~4.0.3"
+  }
+}
